@@ -1,9 +1,55 @@
+* {
+  outline: dotted 2px orange;
+}
+
+html {
+  width: 900px;
+  margin: auto;
+}
+
+.name-logo {
+  margin-top: 20px;
+  display: inline-block;
+  width: 250px;
+}
+
+.sub-txt {
+  text-transform: uppercase;
+  font-family: 'Abel', sans-serif;
+  color: #888;
+  font-size: 13px;
+}
+
+#logo {
+  float:left;
+  z-index: 0;
+}
+
+.delicious {
+  font-family: 'Yellowtail', cursive;
+  font-size: 36px;
+  z-index: 1;
+}
+
+.social-icons {
+  /* display: inline; */
+  float: right;
+  margin-top: 30px;
+}
+
+/*via: ibrahimjabbari codepen*/
 hr.style11 {
 	height: 6px;
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
+  margin-top: 35px;
 }
 
+
+
+
+
+/*via stackoverflow*/
 .line {
     border-bottom: 1px solid black;
     text-align:center;
