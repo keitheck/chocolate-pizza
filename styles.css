@@ -45,13 +45,37 @@ hr.style11 {
   margin-top: 35px;
 }
 
+.chocolate {
+  font-family: 'Anton', sans-serif;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.blog-post-name {
+  width: 300px;
+}
+
+.print {
+  float: right;
+  display: inline;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+#print-text {
+  float: right;
+}
 
 
-
+footer {
+  color: #888;
+  text-align: center;
+  font-family: georgia;
+}
 
 /*via stackoverflow*/
 .line {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #888;
     text-align:center;
     height:17px;
     margin-bottom:17px;
