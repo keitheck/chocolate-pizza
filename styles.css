@@ -1,0 +1,17 @@
+hr.style11 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    text-align:center;
+    height:17px;
+    margin-bottom:17px;
+}
+
+.lineImg {
+    background-color:white;
+    padding:0px 5px 0px 5px;
+}
