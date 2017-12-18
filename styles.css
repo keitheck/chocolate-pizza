@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: dotted 2px orange;
-}
+} */
 
 html {
   width: 900px;
@@ -17,12 +17,13 @@ html {
   text-transform: uppercase;
   font-family: 'Abel', sans-serif;
   color: #888;
-  font-size: 13px;
+  /* font-size: 13px; */
 }
 
 #logo {
   float:left;
   z-index: 0;
+  margin-right: 10px;
 }
 
 .delicious {
@@ -53,14 +54,16 @@ hr.style11 {
 
 .blog-post-name {
   width: 300px;
+  margin-top: 40px;
 }
 
 .print {
   float: right;
   display: inline;
-  width: 60px;
+  width: 50px;
   margin-bottom: 10px;
 }
+
 
 #print-text {
   float: right;
@@ -84,4 +87,134 @@ footer {
 .lineImg {
     background-color:white;
     padding:0px 5px 0px 5px;
+}
+
+.blog-content {
+  color: #888;
+  font-size: 19px;
+  line-height: 26px;
+  margin-top: 30px;
+}
+
+.tab {
+   color: #fff;
+ }
+
+ .recipe-card {
+   position:relative;
+   margin-top: 30px;
+   color: #888;
+   height: 305px;
+
+ }
+
+.paper {
+  position:absolute;
+  top: 0
+  left: 0
+
+}
+
+.ingredients-left {
+   position:absolute;
+   top: 35px;
+   left: 500px;
+   width:40%;
+   font-family: 'Short Stack', cursive;
+   font-size: 22px;
+   line-height: 31px;
+
+
+ }
+
+.ingredients-right {
+    position:absolute;
+    top: 30px;
+    left: 90px;
+    font-family: 'Short Stack', cursive;
+    width:40%;
+    font-family: 'Short Stack', cursive;
+    font-size: 22px;
+    line-height: 31px;
+  }
+
+ul {
+  list-style-image: url('li-box-empty.png');
+}
+
+.strikethrough {
+  text-decoration:line-through;
+  list-style-image: url('li-box-checked.png')
+}
+
+.author {
+  /* position: absolute; */
+  /* margin-top: 10px; */
+  width: 900px;
+  color: #888;
+  font-size: 19px;
+  line-height: 26px;
+}
+
+.name {
+  color: #777;
+  font-size: 24px;
+}
+
+.bio-float {
+  width: 400px;
+  float:left;
+  margin-right: 30px;
+}
+
+.bio-image {
+  float:left;
+  margin-right: 30px;
+}
+
+.about-v {
+  position: relative;
+  margin-top: 30px;
+  width: 900px;
+}
+
+.about-v p {
+  width: 670px;
+}
+
+.bio-text {
+  margin-top: 10px;
+}
+
+button {
+  tratransition:150ms all;
+  padding: 15px 35px 15px 35px;
+  background-color: #935134;
+  color: #fff;
+  font-size: 18px;
+  font-weight:lighter;
+  letter-spacing: -0.05em
+}
+
+.button-float {
+  position: absolute;
+  right: 0;
+}
+
+.footer {
+  margin-top: 60px;
+  height: 100px;
+  text-align: center;
+  width: 900px;
+  color: #999;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.forkimg {
+  vertical-align: center;
+}
+
+.footer img {
+  margin-bottom: 10px;
 }
